@@ -16,11 +16,48 @@ namespace MPC4._0_Unit_tests
 
         private Body_modle get_base_body_modle()
         {
-            XmlDocument doc = new XmlDocument();
-            Body_factory b_fact = new Body_factory();
-            
-            doc.Load(Path_util.get_body_modle_path("basic_humanoid.xml"));
-            Body_modle bm = b_fact.load_base_body_modle(ref doc);
+          
+            List<Body_part> bp = new List<Body_part>();
+
+            Body_part torso = new Body_part("Bål", "OK");
+            torso.Mod_damage_all = -50;
+            torso.Mod_damage_two_hand = -50;
+            torso.Part_type = "TORSO";
+            bp.Add(torso);
+
+            Body_part head = new Body_part("Huvud", "OK");
+            head.Mod_damage_all = -50;
+            head.Mod_damage_two_hand = -50;
+            head.Part_type = "HEAD";
+            bp.Add(head);
+
+            Body_part Larm = new Body_part("Vänster arm", "OK");
+            Larm.Mod_damage_all = -25;
+            Larm.Mod_damage_two_hand = -50;
+            Larm.Part_type = "ARM";
+            bp.Add(Larm);
+
+            Body_part Lleg = new Body_part("Vänster ben", "OK");
+            Lleg.Mod_damage_all = -25;
+            Lleg.Mod_damage_two_hand = -25;
+            Lleg.Part_type = "LEG";
+            bp.Add(Lleg);
+
+            Body_part Harm = new Body_part("Höger arm", "OK");
+            Harm.Mod_damage_all = -25;
+            Harm.Mod_damage_two_hand = -50;
+            Harm.Part_type = "ARM";
+            bp.Add(Harm);
+
+            Body_part Hleg = new Body_part("Höger ben", "OK");
+            Hleg.Mod_damage_all = -25;
+            Hleg.Mod_damage_two_hand = -25;
+            Hleg.Part_type = "LEG";
+            bp.Add(Hleg);
+
+
+
+            Body_modle bm = new Body_modle("Crash dummy", "T20",bp);
 
             return bm;
         }
