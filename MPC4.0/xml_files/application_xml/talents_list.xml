@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<talents>
+  <talent>
+    <name>Egendom</name>
+    <activation>N/A</activation>
+    <range>N/A</range>
+    <effect>N/A</effect>
+    <duration>N/A</duration>
+    <description>
+      Personen har ärvt/tjänat iho etc en större egendom. Se regelboken.
+    </description>
+  </talent>
+  <talent>
+    <name>Status</name>
+    <activation>N/A</activation>
+    <range>N/A</range>
+    <effect>N/A</effect>
+    <duration>N/A</duration>
+    <description>RP är av god börd...</description>
+  </talent>
+</talents>

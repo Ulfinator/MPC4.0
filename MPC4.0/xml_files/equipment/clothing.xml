@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equipment>
+  <category>Kläder</category>
+  <item>
+    <name>Stickad tröjja</name>
+    <equipment_type>Clothing</equipment_type>
+    <description>Varm tröjja för kalla klimat.</description>
+  </item>
+  <item>
+    <name>Jeans</name>
+    <equipment_type>Clothing</equipment_type>
+    <description>Härdiga tygbyxor för arbete.</description>
+  </item>
+</equipment>

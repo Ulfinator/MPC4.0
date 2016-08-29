@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<equipment>
+  <category>Husgeråd</category>
+  <item>
+    <name>Sked</name>
+    <equipment_type>Bestick</equipment_type>
+    <description>Skovel</description>
+  </item>
+  <item>
+    <name>Gaffel</name>
+    <equipment_type>Bestick</equipment_type>
+    <description>Gaffel</description>
+  </item>
+</equipment>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equipment>
+  <category>Magasin</category>
+  <item>
+    <name>15 mag 9X19</name>
+    <equipment_type>magazine</equipment_type>
+    <description>Magasin för kaliber 9X19 med plats för 15 kulor</description>
+    <calibre>9X19</calibre>
+    <shell_type>REGULAR</shell_type>
+    <max_projectiles>15</max_projectiles>
+  </item>
+  <item>
+    <name>20 mag 9X19</name>
+    <equipment_type>magazine</equipment_type>
+    <description>Magasin för kaliber 9X19 med plats för 20 kulor</description>
+    <calibre>9X19</calibre>
+    <shell_type>REGULAR</shell_type>
+    <max_projectiles>20</max_projectiles>
+  </item>
+  <item>
+    <name>Bultar mag</name>
+    <equipment_type>magazine</equipment_type>
+    <description>special ammo till bultar pistol</description>
+    <calibre>2B</calibre>
+    <shell_type>REGULAR</shell_type>
+    <max_projectiles>10</max_projectiles>
+  </item>
+</equipment>

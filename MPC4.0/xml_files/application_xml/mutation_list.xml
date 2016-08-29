@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<mutations>
+  <mutation>
+    <name>Blixtsnabba reflexer</name>
+    <activation>Automatisk</activation>
+    <range>Personlig</range>
+    <effect>1,5 x SMI för initiativslag och undvika</effect>
+    <duration>Permanent</duration>
+    <description>Ökar endast SMI vid initiativslag och baschansen för Undvika.
+      </description>
+  </mutation>
+  <mutation>
+    <name>Bärsärk</name>
+    <activation>Ny färdighet, Bärsärk (1 X VIL)</activation>
+    <range>Personlig</range>
+    <effect>Mutanten kan gå bärsärk</effect>
+    <duration>Maximalt FYS + VIL SR</duration>
+    <description>Kräver lyckat färdighetsslag mot Bärsärk.
+Att gå ur raseriet i förtid kräver nytt lyckat slag, 1 försök/sr.
+        Fördelar:
+        1. +1 attack utan avdrag för extra handling
+        2. 1,5 X STY för skadebonus
+        3. ignorerar skador som inte överskrider TT
+        
+        Nackdelar:
+        1. Parerar eller undviker inte.
+        2. anfaller utan taktiskt tänkande.
+        3. Måste lyckas med ett bärsärk slag för att inte gå bärsärk om skada över 2 kp erhålls.
+      </description>
+  </mutation>
+  <mutation>
+    <name>Dubbelhjärna</name>
+    <activation>Automatisk</activation>
+    <range>Personlig</range>
+    <effect>+1 handling</effect>
+    <duration>Permanent</duration>
+    <description>Mutanten får +1 handling utan avdrag.
+      </description>
+  </mutation>
+  <mutation>
+    <name>Eldkastare</name>
+    <activation>Färdighet Eldkastare</activation>
+    <range>5</range>
+    <effect>Eldmoln 2T6+1/10 i färdigheten </effect>
+    <duration>Omedelbar</duration>
+    <description>Kan användas STO/4 ggr/dag.
+Sätter eld på lättantändligt material.
+Direkt skada på 2T6+1 per 10 under färdighetsvärdet.
+</description>
+    <ability_skill>
+      <name>Eldkastare</name>
+      <base_attribute>SMI</base_attribute>
+    </ability_skill>
+  </mutation>
+</mutations>

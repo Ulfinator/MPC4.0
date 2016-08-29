@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equipment>
+  <category>Handgranater</category>
+  <item>
+    <name>Splittergranat 15m</name>
+    <equipment_type>thrown_weapon</equipment_type>
+    <description>Standard splittergranat 15 meters radie</description>
+    <melee_skill>närstrid</melee_skill>
+	<melee_damage>1</melee_damage>
+    <melee_damage_type>kross</melee_damage_type>
+	<min_melee_strength>1</min_melee_strength>
+	<range_skill>kasta</range_skill>
+    <fire_rate_single>1</fire_rate_single>
+    <grip>1H</grip>
+    <initiative>0</initiative>
+    <magazine_type>INTEGRATED</magazine_type>
+    <standard_mag_size>1</standard_mag_size>
+    <calibre>0</calibre>
+    <reliability>78</reliability>
+    <range>5</range>
+	<hardness>10</hardness>
+    <weight>0,25</weight>
+	<penetration>0</penetration>
+	<single_fire_damage>5T6</single_fire_damage>
+  </item>
+</equipment>

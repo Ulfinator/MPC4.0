@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<armour_parts>
+  <armour_part>
+    <name>Läder</name>
+    <part_cover>ANY</part_cover>
+    <type>Hud från djur</type>
+    <absorption_value>1</absorption_value>
+    <limitation_value>-1</limitation_value>
+  </armour_part>
+  <armour_part>
+    <name>Flytväst</name>
+    <part_cover>TORSO</part_cover>
+    <type>Flytbojj i tygväst</type>
+    <absorption_value>1</absorption_value>
+    <limitation_value>-5</limitation_value>
+  </armour_part>
+  <armour_part>
+    <name>Cykelhjälm</name>
+    <part_cover>HEAD</part_cover>
+    <type>Plast och frigolit hjälm</type>
+    <absorption_value>2</absorption_value>
+    <limitation_value>-10</limitation_value>
+  </armour_part>
+</armour_parts> 

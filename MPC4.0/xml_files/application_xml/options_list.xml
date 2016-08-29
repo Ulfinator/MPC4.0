@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<options>
+  <option>
+    <name>Analysenhet</name>
+    <activation>Vid behov</activation>
+    <range>Nära/25m</range>
+    <effect>Roboten har känsliga analysinstrument</effect>
+    <duration>Koncentration</duration>
+    <description>
+      Se regelboken
+    </description>
+  </option>
+  <option>
+    <name>Batteriladdare</name>
+    <activation>Vid behov</activation>
+    <range>Personlig</range>
+    <effect>Laddar e-pack direkt från robotens egen energikälla</effect>
+    <duration>Mini 10 min, typ A 1h, typ B 24 h, typ C 72h</duration>
+    <description>
+      Roboten kan ladda all former av e-pack men med varierande laddningstid.
+    </description>
+  </option>
+</options>

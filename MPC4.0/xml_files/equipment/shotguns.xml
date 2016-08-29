@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equipment>
+  <category>Hagelgevär</category>
+  <item>
+    <name>Misc hagelbrakare</name>
+    <equipment_type>spray_weapon</equipment_type>
+    <description>2 skotts hagelgevär</description>
+	<melee_skill>närstrid</melee_skill>
+	<melee_damage>1T6</melee_damage>
+    <melee_damage_type>kross</melee_damage_type>
+	<min_melee_strength>7</min_melee_strength>
+    <range_skill>gevär</range_skill>
+    <fire_rate_single>1</fire_rate_single>
+    <grip>2H</grip>
+    <initiative>6</initiative>
+    <secondary_initiative>1</secondary_initiative>
+    <magazine_type>INTEGRATED</magazine_type>
+    <standard_mag_size>2</standard_mag_size>
+    <calibre>12</calibre>
+    <reliability>90</reliability>
+    <range>25</range>
+	<hardness>10</hardness>
+    <weight>3,0</weight>
+    <single_fire_damage>
+      <shell_type>HAIL</shell_type>
+      <range_damage_die>
+        <close>6T6</close>
+        <near>5T6</near>
+        <short>3T6</short>
+        <medium>1T6</medium>
+      </range_damage_die>
+    </single_fire_damage>
+    <single_fire_damage>
+      <shell_type>SLUG</shell_type>
+      <range_damage_die>
+        <close>5T6</close>
+        <near>4T6</near>
+        <short>3T6</short>
+        <medium>2T6</medium>
+        <long>1T6</long>
+      </range_damage_die>
+    </single_fire_damage>
+  </item>
+</equipment>

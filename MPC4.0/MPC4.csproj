@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0FF504B-2DEC-4EA7-BB59-B83D0EA31CFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MPC4._0</RootNamespace>
+    <AssemblyName>MPC4.0</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ability_creator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ability_creator.Designer.cs">
+      <DependentUpon>Ability_creator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Armour_selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Armour_selector.Designer.cs">
+      <DependentUpon>Armour_selector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Body_part_selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Body_part_selector.Designer.cs">
+      <DependentUpon>Body_part_selector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classes\Ability_factory.cs" />
+    <Compile Include="classes\Ability_lister.cs" />
+    <Compile Include="classes\Ability_repository.cs" />
+    <Compile Include="classes\Ammo_pile.cs" />
+    <Compile Include="classes\Damage_handler.cs" />
+    <Compile Include="classes\Creature_drawing_handler.cs" />
+    <Compile Include="classes\Equipment_repository.cs" />
+    <Compile Include="classes\Initiative_item.cs" />
+    <Compile Include="classes\Magazine.cs" />
+    <Compile Include="classes\Armour_lister.cs" />
+    <Compile Include="classes\Armour_part.cs" />
+    <Compile Include="classes\Damage.cs" />
+    <Compile Include="classes\Modle_repository.cs" />
+    <Compile Include="classes\Parse_utils.cs" />
+    <Compile Include="classes\Path_util.cs" />
+    <Compile Include="classes\Psi.cs" />
+    <Compile Include="classes\Resonans_effect.cs" />
+    <Compile Include="classes\Resonans_repository.cs" />
+    <Compile Include="classes\Robot.cs" />
+    <Compile Include="classes\Skill_result.cs" />
+    <Compile Include="classes\Body_factory.cs" />
+    <Compile Include="classes\Body_modle.cs" />
+    <Compile Include="classes\Body_modle_lister.cs" />
+    <Compile Include="classes\Body_part.cs" />
+    <Compile Include="classes\Creature_repository.cs" />
+    <Compile Include="classes\Die_modifier.cs" />
+    <Compile Include="classes\Creature.cs" />
+    <Compile Include="classes\die_service.cs" />
+    <Compile Include="classes\Encounter_list_item.cs" />
+    <Compile Include="classes\Equipment.cs" />
+    <Compile Include="classes\Equipment_factory.cs" />
+    <Compile Include="classes\Equipment_lister.cs" />
+    <Compile Include="classes\List_service.cs" />
+    <Compile Include="classes\Skill.cs" />
+    <Compile Include="classes\Skill_lister.cs" />
+    <Compile Include="classes\Special_ability.cs" />
+    <Compile Include="classes\Spray_weapon.cs" />
+    <Compile Include="classes\Thrown_weapon.cs" />
+    <Compile Include="classes\Weapon.cs" />
+    <Compile Include="classes\Weapon_result.cs" />
+    <Compile Include="classes\Xml_util.cs" />
+    <Compile Include="Creature_manipulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creature_manipulation.Designer.cs">
+      <DependentUpon>Creature_manipulation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encounter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encounter.Designer.cs">
+      <DependentUpon>Encounter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment_creator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment_creator.Designer.cs">
+      <DependentUpon>Equipment_creator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment_creator_control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Equipment_creator_control.Designer.cs">
+      <DependentUpon>Equipment_creator_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment_selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipment_selector.Designer.cs">
+      <DependentUpon>Equipment_selector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hit_modle_creator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hit_modle_creator.Designer.cs">
+      <DependentUpon>Hit_modle_creator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="testform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testform.Designer.cs">
+      <DependentUpon>testform.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ability_creator.resx">
+      <DependentUpon>Ability_creator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Armour_selector.resx">
+      <DependentUpon>Armour_selector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Body_part_selector.resx">
+      <DependentUpon>Body_part_selector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creature_manipulation.resx">
+      <DependentUpon>Creature_manipulation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Encounter.resx">
+      <DependentUpon>Encounter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment_creator.resx">
+      <DependentUpon>Equipment_creator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment_creator_control.resx">
+      <DependentUpon>Equipment_creator_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipment_selector.resx">
+      <DependentUpon>Equipment_selector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hit_modle_creator.resx">
+      <DependentUpon>Hit_modle_creator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Skill_selector.resx">
+      <DependentUpon>Skill_selector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Special_ability_selector.resx">
+      <DependentUpon>Special_ability_selector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testform.resx">
+      <DependentUpon>testform.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\MPC4.classes.Body_part.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Creature.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Creature1.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Equipment.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Melee_weapon.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Ranged_weapon.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Skill.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Skill_selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Skill_selector.Designer.cs">
+      <DependentUpon>Skill_selector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Special_ability_selector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Special_ability_selector.Designer.cs">
+      <DependentUpon>Special_ability_selector.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_images\add-icon.png" />
+    <None Include="App_images\delete.ico" />
+    <None Include="App_images\gas_clone.png" />
+    <None Include="App_images\Clock.png" />
+    <None Include="App_images\bag.ico" />
+    <None Include="App_images\dustbin.ico" />
+    <None Include="App_images\gear.ico" />
+    <None Include="App_images\Wheel-icon.png" />
+    <None Include="App_images\tall safe.ico" />
+    <None Include="App_images\Floppy.ico" />
+    <None Include="App_images\steampunk orrery.ico" />
+    <None Include="App_images\syringe3.ico" />
+    <None Include="App_images\steel_one_plate.jpg" />
+    <None Include="App_images\gear-wheel-icon.png" />
+    <None Include="App_images\Manipulation_1.ico" />
+    <None Include="App_images\Encounter.ico" />
+    <None Include="App_images\small_steel.jpg" />
+    <None Include="App_images\bkg_steel.jpg" />
+    <None Include="App_images\bkg_steel2.jpg" />
+    <None Include="App_images\twin_top_30.png" />
+    <None Include="App_images\twin_top_25.png" />
+    <None Include="App_images\thermometers-closed.ico" />
+    <None Include="App_images\USB.ico" />
+    <None Include="App_images\dial.ico" />
+    <None Include="App_images\Typewriter.ico" />
+    <None Include="App_images\camera.ico" />
+    <None Include="App_images\blood.ico" />
+    <None Include="App_images\alethiometer.ico" />
+    <None Include="App_images\watchinnards.ico" />
+    <None Include="App_images\psi.png" />
+    <None Include="App_images\Steampunk-Spider.ico" />
+    <None Include="App_images\vitruvian.gif" />
+    <None Include="App_images\List.ico" />
+    <None Include="App_images\safari.ico" />
+    <None Include="App_images\psi2.png" />
+    <None Include="App_images\picture postcard.ico" />
+    <None Include="App_images\initiative_colors_1.png" />
+    <None Include="App_images\initiative_colors_2.png" />
+    <None Include="App_images\initiative_colors_3.png" />
+    <None Include="App_images\pruss_1.png" />
+    <None Include="App_images\pruss_2.png" />
+    <None Include="App_images\disc-icon2.png" />
+    <Content Include="App_images\standard_dead.bmp" />
+    <Content Include="App_images\standard_down.bmp" />
+    <Content Include="xml_files\application_xml\resonans_list.xml" />
+    <Content Include="xml_files\equipment\handgrenades.xml" />
+    <Content Include="xml_files\equipment\magazines.xml" />
+    <Content Include="xml_files\equipment\natural_weapons.xml" />
+    <Content Include="xml_files\equipment\shotguns.xml" />
+    <Content Include="xml_files\equipment\sub_machine_guns.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="App_images\Full_Trash.ico" />
+    <None Include="App_images\Drug.ico" />
+    <Content Include="xml_files\equipment\ammunition.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xml_files\equipment\clothing.xml" />
+    <Content Include="xml_files\equipment\field_gear.xml" />
+    <Content Include="xml_files\equipment\svartkrutsvapen.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="xml_files\equipment\melee_weapons.xml" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_images\BOOK-icon.png" />
+    <Content Include="App_images\dice-icon.png" />
+    <None Include="App_images\helmet-icon.png" />
+    <None Include="App_images\helmet-icon_1.png" />
+    <Content Include="App_images\Open-Folder-icon.png" />
+    <None Include="App_images\preferences-icon.png" />
+    <None Include="App_images\shield.png" />
+    <None Include="App_images\weapon_folder.png" />
+    <None Include="App_images\weapon_folder_1.png" />
+    <Content Include="xml_files\arms_and_armour\armour_list.xml" />
+    <Content Include="xml_files\application_xml\mental_mutation_list.xml" />
+    <Content Include="xml_files\application_xml\mutation_list.xml" />
+    <Content Include="xml_files\application_xml\options_list.xml" />
+    <Content Include="xml_files\application_xml\skill_list.xml" />
+    <Content Include="xml_files\application_xml\talents_list.xml" />
+    <None Include="Properties\DataSources\MPC4.classes.Ability_lister.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Armour_part.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Body_modle.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Body_modle_lister.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.List_service.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.List_service1.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Skill_lister.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Skill_lister1.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Skill_lister2.datasource" />
+    <None Include="Properties\DataSources\MPC4.classes.Special_ability.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="game_images\" />
+    <Folder Include="xml_files\body_modles_xml\" />
+    <Folder Include="xml_files\creature_xml\encounter_xml\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

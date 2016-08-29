@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equipment>
+  <category>Svartkrutsvapen</category>
+  <item>
+    <name>Skarprättare pistol</name>
+    <equipment_type>ranged_weapon</equipment_type>
+    <description>Bakladdad enskottspistol</description>
+	  <melee_skill>närstrid</melee_skill>
+    <melee_damage>1T6+2</melee_damage>
+    <melee_damage_type>kross</melee_damage_type>
+    <min_melee_strength>7</min_melee_strength>   
+    <range_skill>pistol</range_skill>
+    <fire_rate_single>1</fire_rate_single>
+    <grip>1H</grip>
+    <initiative>3</initiative>
+    <secondary_initiative>1</secondary_initiative>
+    <magazine_type>INTEGRATED</magazine_type>
+    <standard_mag_size>1</standard_mag_size>
+    <calibre>45S</calibre>
+    <reliability>99</reliability>
+    <range>10</range>
+    <hardness>12</hardness>
+    <weight>2,5</weight>
+	  <single_fire_damage>2T8</single_fire_damage>
+  </item>
+  <item>
+    <name>Skarprättare derringer</name>
+    <equipment_type>ranged_weapon</equipment_type>
+    <description>Bakladdad enskottspistol</description>
+    <melee_skill>närstrid</melee_skill>
+    <melee_damage>1T2</melee_damage>
+    <melee_damage_type>kross</melee_damage_type>
+    <min_melee_strength>7</min_melee_strength>
+    <range_skill>pistol</range_skill>
+    <fire_rate_single>1</fire_rate_single>
+    <grip>1H</grip>
+    <initiative>6</initiative>
+    <secondary_initiative>1</secondary_initiative>
+    <magazine_type>INTEGRATED</magazine_type>
+    <standard_mag_size>1</standard_mag_size>
+    <calibre>45S</calibre>
+    <reliability>99</reliability>
+    <range>5</range>
+    <hardness>9</hardness>
+    <weight>0,5</weight>
+    <single_fire_damage>2T6</single_fire_damage>
+  </item>
+  <item>
+    <name>Skarprättare gevär</name>
+    <equipment_type>ranged_weapon</equipment_type>
+    <description>Bakladdat svartkrutsgevär</description>
+    <melee_skill>närstrid</melee_skill>
+    <melee_damage>1T10</melee_damage>
+    <melee_damage_type>kross</melee_damage_type>
+    <min_melee_strength>9</min_melee_strength>
+    <range_skill>gevär</range_skill>
+    <fire_rate_single>1</fire_rate_single>
+    <grip>2H</grip>
+    <initiative>1</initiative>
+    <secondary_initiative>2</secondary_initiative>
+    <magazine_type>INTEGRATED</magazine_type>
+    <standard_mag_size>1</standard_mag_size>
+    <calibre>45S</calibre>
+    <reliability>99</reliability>
+    <range>50</range>
+    <hardness>10</hardness>
+    <weight>5,5</weight>
+    <single_fire_damage>3T6</single_fire_damage>
+  </item>
+    <item>
+    <name>Skarprättare karbin</name>
+    <equipment_type>ranged_weapon</equipment_type>
+    <description>Bakladdat svartkrutsgevär</description>
+    <melee_skill>närstrid</melee_skill>
+    <melee_damage>1T10</melee_damage>
+    <melee_damage_type>kross</melee_damage_type>
+    <min_melee_strength>9</min_melee_strength>
+    <range_skill>gevär</range_skill>
+    <fire_rate_single>1</fire_rate_single>
+    <grip>2H</grip>
+    <initiative>2</initiative>
+    <secondary_initiative>2</secondary_initiative>
+    <magazine_type>INTEGRATED</magazine_type>
+    <standard_mag_size>1</standard_mag_size>
+    <calibre>45S</calibre>
+    <reliability>99</reliability>
+    <range>25</range>
+    <hardness>12</hardness>
+    <weight>5,0</weight>
+    <single_fire_damage>3T6</single_fire_damage>
+  </item>
+  <item>
+    <name>Musköt</name>
+    <equipment_type>ranged_weapon</equipment_type>
+    <description>Gammeldags</description>
+    <melee_skill>närstrid</melee_skill>
+    <melee_damage>1T10</melee_damage>
+    <melee_damage_type>kross</melee_damage_type>
+    <min_melee_strength>9</min_melee_strength>
+    <range_skill>gevär</range_skill>
+    <fire_rate_single>1</fire_rate_single>
+    <grip>2H</grip>
+    <initiative>1</initiative>
+    <secondary_initiative>2</secondary_initiative>
+    <magazine_type>INTEGRATED</magazine_type>
+    <standard_mag_size>1</standard_mag_size>
+    <calibre>15mm</calibre>
+    <reliability>96</reliability>
+    <range>25</range>
+    <hardness>14</hardness>
+    <weight>6,0</weight>
+    <single_fire_damage>3T6</single_fire_damage>
+  </item>
+</equipment>
+    

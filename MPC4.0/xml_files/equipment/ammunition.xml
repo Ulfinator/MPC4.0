@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equipment>
+  <category>Ammunition</category>
+  <item>
+    <name>Pilkoger</name>
+    <equipment_type>ammunition</equipment_type>
+    <description>Koger med plats för 20 pilar</description>
+    <calibre>pil</calibre>
+    <shell_type>REGULAR</shell_type>
+    <max_projectiles>20</max_projectiles>
+  </item>
+  <item>
+    <name>Skarprättar ammo 50 box</name>
+    <equipment_type>ammunition</equipment_type>
+    <description>Box med 50 lösa kulor</description>
+    <calibre>45S</calibre>
+    <shell_type>REGULAR</shell_type>
+    <max_projectiles>50</max_projectiles>
+  </item>
+  <item>
+    <name>Muskötkulor och krut</name>
+    <equipment_type>ammunition</equipment_type>
+    <description>Kruthorn och 50 lösa kulor</description>
+    <calibre>15mm</calibre>
+    <shell_type>REGULAR</shell_type>
+    <max_projectiles>50</max_projectiles>
+  </item>
+  <item>
+    <name>12 gauge hagel 20 box</name>
+    <equipment_type>ammunition</equipment_type>
+    <description>Box med 20 hagelpatroner</description>
+    <calibre>12</calibre>
+    <shell_type>HAIL</shell_type>
+    <max_projectiles>20</max_projectiles>
+  </item>
+</equipment> 

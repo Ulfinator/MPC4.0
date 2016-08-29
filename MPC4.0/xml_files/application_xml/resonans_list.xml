@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resonans_effects>
+  <resonans_effect>
+    <resonans_value>0</resonans_value>
+    <title>Migrän</title>
+    <description>Mutanten drabbas av fruktansvärd huvudvärk i 1T4 timmar. Alla färdigheter halveras under denna tid.</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-1</resonans_value>
+    <title>Konflikt</title>
+    <description>Mutantens överlevnadsinstinkt gör att han under de närmsta 1T4 timmarna endast ser till sin egen säkerhet vid fara.</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-2</resonans_value>
+    <title>Överkänslighet</title>
+    <description>Ett av mutantens sinnen blir hyperkänsligt och obrukbart under 1T4 timmar. 1T6 1:Syn, 2:Ljud,:Känsel, 3:Lukt, 5:Smak, 6:Alla ovanstående</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-3</resonans_value>
+    <title>Minnesförlust</title>
+    <description>Mutanten tappar minnet från de senaste 1T4 timmarna, inkluderat möjliga erfarenhetspoäng.</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-4</resonans_value>
+    <title>Sammanbrott</title>
+    <description>Mutanten kan inte använda några mutationer under 1T4 timmar.</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-5</resonans_value>
+    <title>Bakslag</title>
+    <description>Mutationen drabbar mutanten själv. Om mutationen var menad för mutanten så händer ingenting</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-6</resonans_value>
+    <title>Blockering</title>
+    <description>Mutanten vägrar tro på ett i närheten varande fenomen eller faktum under 1T4 timmar och kan inte skydda sig mot eller planera med detta.</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-7</resonans_value>
+    <title>Stupiditet</title>
+    <description>Mutantens INT, VIL och därtil hörande färdigheter delas med 4 under 1T4 timmar.</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-8</resonans_value>
+    <title>Överbelastning</title>
+    <description>Mutanten får telepatisk kontakt med alla i närheten och kan inte göra annat än att vila i 1T4 timmar om denne inte är helt ensam på minst 100 kvadratmeter.</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-9</resonans_value>
+    <title>Katatoni</title>
+    <description>Mutanten blir okontaktbar i 1T4 timmar</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-10</resonans_value>
+    <title>Vansinne</title>
+    <description>Mutanten tappar verklighetsuppfattningen i 1T4 timmar när denne hr röster och ser mardrömsbilder</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-11</resonans_value>
+    <title>Epilepsi</title>
+    <description>Mutanten krampar i 30-FYS SR och är sedan oförmögen till handling i 1T4 timmar</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-12</resonans_value>
+    <title>Termodynamisk chock</title>
+    <description>Mutanten tar en ådrar sig TT KP skada i huvudet då hjärnan överhettas. Huvudet är nu kritiskt skadat</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-13</resonans_value>
+    <title>Paradoxalt cellsönderfall</title>
+    <description>Det centrala nervsystemet överbelastas och mutanten går ned på 0 KP med en kritisk skada i huvudet. En resonanseffekt blir permanent (1T10 på skalan ej 1-3)</description>
+  </resonans_effect>
+  <resonans_effect>
+    <resonans_value>-14</resonans_value>
+    <title>Massiv hjärnblödning</title>
+    <description>Mutanten dör omedelbart</description>
+  </resonans_effect>
+</resonans_effects>

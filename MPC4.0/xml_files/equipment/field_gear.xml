@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equipment>
+  <category>Fältutrustning</category>  
+  <item>
+    <name>Kompass</name>
+    <equipment_type>Navigation</equipment_type>
+    <description>Liten kompass för fältbruk.</description>
+  </item>
+  <item>
+    <name>Fältkikare</name>
+    <equipment_type>Navigation</equipment_type>
+    <description>Liten kikare för fältbruk </description>
+  </item>
+  <item>
+    <name>Armespade</name>
+    <equipment_type>Camping</equipment_type>
+    <description>Liten ihopvikbar spade för fältbruk</description>
+  </item>
+  <item>
+    <name>Handyxa</name>
+    <equipment_type>Camping</equipment_type>
+    <description>Liten vedyxa för fältbruk</description>
+  </item>
+</equipment> 

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<mental_mutations>
+  <mental_mutation>
+    <name>Astral projektion</name>
+    <activation>Ny färdighet Astral projektion (1 X VIL)</activation>
+    <range>Personlig</range>
+    <effect>Kan lämna kroppen för begränsad tid</effect>
+    <duration>VIL X 2 min samt koncentration</duration>
+    <description>Flyger genom alla kända material i 10 X VIL m/sr.
+Hejdas av kraft och magnetfält.
+
+Se regelboken.
+
+    </description>
+    <ability_skill>
+      <name>Astral projection</name>
+      <base_attribute>VIL</base_attribute>
+    </ability_skill>
+  </mental_mutation>
+  <mental_mutation>
+    <name>Betendeförändring</name>
+    <activation>nu</activation>
+    <range>wee</range>
+    <effect>jaaa</effect>
+    <duration>snurr</duration>
+    <description>sprätt</description>
+    <ability_skill>
+      <name>beteende</name>
+      <base_attribute>STO</base_attribute>
+    </ability_skill>
+  </mental_mutation>
+  <mental_mutation>
+    <name>Djurmästare</name>
+    <activation>Ny färdighet Djurmästare (1 X VIL)</activation>
+    <range>Syn</range>
+    <effect>VIL/4 djur lyder i lika många timmar eller 1 djur förslavas permanent om dess VIL övervinns
+    med 2T10 + 1/10 Djurmästare</effect>
+    <duration>VIL/4 timmar eller permanent</duration>
+    <description>
+      Se regelboken
+    </description>
+    <ability_skill>
+      <name>Djurmästare</name>
+      <base_attribute>VIL</base_attribute>
+    </ability_skill>
+  </mental_mutation>
+  <mental_mutation>
+    <name>Empati</name>
+    <activation>Färdighet Empati</activation>
+    <range>Syn, telepati</range>
+    <effect>Mutanten kan känna en persons känsloläge</effect>
+    <duration>Omedelbar</duration>
+    <description>Mutanten kan känna av andra varelsers sinnestämning. Mutanten får bonus på alla interaktionsfärdigheter (Bildning, Köpslå,Undre världen) motsvarande diferensen på Empatislaget. Effekten varar under ett samtal/uppgörelse. Efter en minut och ett lyckat slag till så kan mutanten genomskåda alla offrets lögner. Empati kan blockeras med ett lyckat Empati, telepati slag eller en mental sköld.</description>
+    <ability_skill>
+      <name>Empati</name>
+      <base_attribute>INT</base_attribute>
+    </ability_skill>
+  </mental_mutation>
+  <mental_mutation>
+    <name>Fasförskjutning</name>
+    <activation>Färdighet Fasförskjutning</activation>
+    <range>Personlig</range>
+    <effect>Mutanten kan bli immateriell</effect>
+    <duration>Omedelbar</duration>
+    <description>Mutanten övergår under en handling i en immateriell status och kan inte skadas av något. Att Fasa räknas som en offensiv handling vilket ger -25% om fler handlingar ska göras. Mutanten kan hoppa 2X sin egen längd, 4X med ett lyckat akrobatikslag. </description>
+    <ability_skill>
+      <name>Fasförskjutning</name>
+      <base_attribute>VIL</base_attribute>
+    </ability_skill>
+  </mental_mutation>
+  <mental_mutation>
+    <name>Inflytande</name>
+    <activation>Färdighet Inflytande</activation>
+    <range>Röst, telepati</range>
+    <effect>Individ eller grupps åsikt påverkas</effect>
+    <duration>VIL minuter</duration>
+    <description>Mutanten påverkar åhörarnas åsikt åt det håll denne vill. Att helt byta ståndpunkt kräver ett perfekt slag. SL bestämmer hur mycket påverkan som är rimlig.
+
+Mutanten skall övervinna VIL på åhöraren med högst vilja med 2T10+1/10 FV Inflytande. 
+Är åhörarna fler än mutantens VIL delas deras antal med VIL och kvoten visar hur många VIL som måste övervinnas. 
+</description>
+    <ability_skill>
+      <name>Inflytande</name>
+      <base_attribute>VIL</base_attribute>
+    </ability_skill>
+  </mental_mutation>
+</mental_mutations>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<equipment>
+  <category>K-pistar</category>
+  <item>
+    <name>K-pist</name>
+    <equipment_type>ranged_weapon</equipment_type>
+    <description>36 skotts k-pist</description>
+	  <melee_skill>närstrid</melee_skill>
+    <melee_damage>1T6</melee_damage>
+    <melee_damage_type>kross</melee_damage_type>
+    <min_melee_strength>7</min_melee_strength>    
+	  <range_skill>pistol</range_skill>
+    <fire_rate_single>1</fire_rate_single>
+    <fire_rate_burst>4</fire_rate_burst>
+    <grip>2H</grip>
+    <initiative>6</initiative>
+    <secondary_initiative>1</secondary_initiative>
+    <magazine_type>LOOSE</magazine_type>
+    <standard_mag_size>1</standard_mag_size>
+    <calibre>9X19</calibre>
+    <reliability>80</reliability>
+    <range>50</range>
+	  <hardness>10</hardness>
+    <weight>2,5</weight>
+	  <single_fire_damage>3T6</single_fire_damage>
+    <burst_fire_damage>4T6</burst_fire_damage>
+  </item>
+</equipment>

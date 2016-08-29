@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<creature>
+	<name>Bosse Hult</name>
+  <class>RBT</class>
+	<sty>15</sty>
+  <fys>10</fys>
+  <sto>12</sto>
+  <smi>8</smi>
+  <int>14</int>
+  <vil>6</vil>
+  <per>9</per>
+  <skills>
+    <skill>
+      <name>Akrobatik</name>
+      <value>45</value>
+      <base_attribute>SMI</base_attribute>
+    </skill>
+    <skill>
+      <skill_name>Båge</skill_name>
+      <skill_value>8</skill_value>
+      <skill_base_attribute>SMI</skill_base_attribute>
+    </skill>
+  </skills>
+  <special_abilities>
+    <ability>
+      <name>Gastronom</name>
+      <activation>alltid på</activation>
+      <range>personlig</range>
+      <effect>Möjlighet att äta</effect>
+      <duration>permanent</duration>
+      <description>Roboten har möjlighet att äta mat precis som alla andra samt att dra ut olja från maten</description>
+    </ability> 
+  </special_abilities>
+  <body_parts>
+    <body_part>
+      <name>head</name>
+      <status>ok</status>
+      <armour_parts>
+        <armour_part>
+          <type>motorcykelhjälm</type>
+          <absorption_value>5</absorption_value>
+          <limitation_value>40</limitation_value>
+          <limitation_part></limitation_part>
+        </armour_part>  
+      </armour_parts>
+    </body_part>
+    <body_part>
+      <name>r_arm</name>
+      <status>ok</status>      
+    </body_part>
+    <body_part>
+      <name>l_arm</name>
+      <status>ok</status>
+    </body_part>
+    <body_part>
+      <name>torso</name>
+      <status>ok</status>
+    </body_part>
+    <body_part>
+      <name>r_leg</name>
+      <status>ok</status>
+    </body_part>
+    <body_part>
+      <name>l_leg</name>
+      <status>ok</status>
+    </body_part>
+  </body_parts>
+</creature>
