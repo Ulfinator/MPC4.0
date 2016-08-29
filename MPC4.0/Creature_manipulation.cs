@@ -179,7 +179,12 @@ namespace MPC4
         private void btn_body_part_list_Click(object sender, EventArgs e)
         {
             Body_part_selector bps = new Body_part_selector();
-            bps.Show();
+            //bps.Show();
+
+            if (bps.ShowDialog() == DialogResult.OK) {
+                manipulation_creature.Body = bps.currModle;
+                txt_body.Text = manipulation_creature.Body.Modle_name;
+            }
         }
 
         private void btn_armour_Click(object sender, EventArgs e)
@@ -236,21 +241,6 @@ namespace MPC4
         private void tbtn_save_cret_Click(object sender, EventArgs e)
         {   
             save_creature();
-        }
-
-        private void txt_body_DragEnter(object sender, DragEventArgs e)
-        {
-            if (e.Data.GetDataPresent(typeof(Body_modle)))
-            {
-                e.Effect = DragDropEffects.Copy;
-            }
-        }
-
-        private void txt_body_DragDrop(object sender, DragEventArgs e)
-        {
-            manipulation_creature.Body = e.Data.GetData(typeof(Body_modle)) as Body_modle;
-
-            txt_body.Text = manipulation_creature.Body.Modle_name;
         }
 
         private void grid_special_abilities_MouseMove(object sender, MouseEventArgs e)

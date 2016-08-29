@@ -38,11 +38,11 @@
             this.grp_hit_modle = new System.Windows.Forms.GroupBox();
             this.pic_canvas = new System.Windows.Forms.PictureBox();
             this.btn_create_new_modle = new System.Windows.Forms.Button();
+            this.btn_choose = new System.Windows.Forms.Button();
             this.modlenameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.modlehitdieDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bodymodlelisterBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
             this.grp_body_types.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grid_body_types)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.modlelistBindingSource)).BeginInit();
@@ -88,7 +88,7 @@
             this.grid_body_types.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.grid_body_types.Size = new System.Drawing.Size(312, 238);
             this.grid_body_types.TabIndex = 0;
-            this.grid_body_types.MouseMove += new System.Windows.Forms.MouseEventHandler(this.grid_body_types_MouseMove);
+            this.grid_body_types.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid_body_types_CellClick);
             // 
             // modlelistBindingSource
             // 
@@ -151,6 +151,7 @@
             this.pic_canvas.Size = new System.Drawing.Size(360, 608);
             this.pic_canvas.TabIndex = 0;
             this.pic_canvas.TabStop = false;
+            this.pic_canvas.Paint += new System.Windows.Forms.PaintEventHandler(this.pic_canvas_Paint);
             // 
             // btn_create_new_modle
             // 
@@ -162,6 +163,16 @@
             this.btn_create_new_modle.Text = "Create modle";
             this.btn_create_new_modle.UseVisualStyleBackColor = true;
             this.btn_create_new_modle.Click += new System.EventHandler(this.btn_create_new_modle_Click);
+            // 
+            // btn_choose
+            // 
+            this.btn_choose.Location = new System.Drawing.Point(439, 677);
+            this.btn_choose.Name = "btn_choose";
+            this.btn_choose.Size = new System.Drawing.Size(126, 35);
+            this.btn_choose.TabIndex = 3;
+            this.btn_choose.Text = "Choose modle";
+            this.btn_choose.UseVisualStyleBackColor = true;
+            this.btn_choose.Click += new System.EventHandler(this.btn_choose_Click);
             // 
             // modlenameDataGridViewTextBoxColumn
             // 
@@ -190,21 +201,12 @@
             this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
             this.nameDataGridViewTextBoxColumn.Width = 180;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(437, 677);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Choose";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Body_part_selector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(741, 728);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_choose);
             this.Controls.Add(this.btn_create_new_modle);
             this.Controls.Add(this.grp_hit_modle);
             this.Controls.Add(this.grp_body_types);
@@ -240,6 +242,6 @@
         private System.Windows.Forms.GroupBox grp_hit_modle;
         private System.Windows.Forms.PictureBox pic_canvas;
         private System.Windows.Forms.Button btn_create_new_modle;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_choose;
     }
 }

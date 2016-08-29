@@ -871,8 +871,6 @@
             this.txt_body.Size = new System.Drawing.Size(178, 26);
             this.txt_body.TabIndex = 3;
             this.txt_body.Text = "N/A";
-            this.txt_body.DragDrop += new System.Windows.Forms.DragEventHandler(this.txt_body_DragDrop);
-            this.txt_body.DragEnter += new System.Windows.Forms.DragEventHandler(this.txt_body_DragEnter);
             // 
             // btn_armour
             // 
